@@ -31,17 +31,15 @@
 /* main style */
 header {
   background: #FFF8F3;
-  width: 100%;
 }
 
 nav {
   max-width: 1140px;
   padding-top: 50px;
-  margin: auto;
+  margin-left: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 
 nav .menu {
@@ -58,9 +56,9 @@ nav .menu a {
 }
 
 #banner {
-  border: 1px solid;
   max-width: 1332px;
-  margin:46px 38px 0 230px;
-  margin: auto;
+  margin-left: 10%;
+  margin-top: 46px;
+  display: flex;
 }
 
