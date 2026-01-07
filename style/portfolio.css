@@ -1,64 +1,55 @@
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 /* shared style */
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.logo h2 {
-  font-size: 45px;
-  font-weight: 900;
-}
 .color-orenge {
-  color: #FD6E0A;
+    color: #fd6e0a;
 }
-
 .btn {
-  background-color: #FD6E0A;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  border: none;
-  padding: 18px 36px;
-  border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18.28px 35px 19.3px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
 }
 
-/* main style */
-header {
-  background: #FFF8F3;
+
+
+/* Main Style */
+header{
+    background-color: #fff3f8;
+    padding-top: 49px;
 }
 
-nav {
-  max-width: 1140px;
-  padding-top: 50px;
-  margin-left: 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
 nav .menu {
-  display: flex;
-  list-style-type: none;
-  gap: 51px;
-  align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
 }
-
 nav .menu a {
-  font-size: 20px;
-  color: #474747;
-  text-decoration: none;
+    color: #474747;
+    text-decoration: none;
+    font-size: 20px;
 }
-
-#banner {
-  max-width: 1332px;
-  margin-left: 10%;
-  margin-top: 46px;
-  display: flex;
-}
-
