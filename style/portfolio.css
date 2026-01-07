@@ -13,6 +13,7 @@
 .color-orenge {
     color: #fd6e0a;
 }
+
 .btn {
     background-color: #FD6E0A;
     border: none;
@@ -21,35 +22,89 @@
     font-weight: bold;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
 
 /* Main Style */
-header{
+header {
     background-color: #fff3f8;
     padding-top: 49px;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
 }
 
-nav{
+nav {
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo h2 {
     font-size: 45px;
     font-weight: 900;
 }
+
 nav .menu {
     display: flex;
     list-style-type: none;
     gap: 51px;
     align-items: center;
 }
+
 nav .menu a {
     color: #474747;
     text-decoration: none;
     font-size: 20px;
+}
+
+#banner {
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-containt {
+    max-width: 585px;
+}
+
+#banner .banner-containt h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-containt h1 {
+    font-size: 85px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#banner .banner-containt p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.btn1 {
+    margin-top: 30px;
+}
+
+.btn2 {
+    margin: 30px;
+    border: 1px solid #fd6e0a;
+    background-color: #FFF8F3;
+    color: #fd6e0a;
+}
+
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
 }
